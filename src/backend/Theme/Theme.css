@@ -1,0 +1,12 @@
+.table > div {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.table > div:nth-child(1) {
+	border-bottom: 2px solid #ddd;
+}
+
+.theme_name:hover {
+	background-color: #eee;
+}

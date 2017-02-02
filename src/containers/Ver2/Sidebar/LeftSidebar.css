@@ -1,0 +1,17 @@
+.left_sidebar {
+	min-width: 300px;
+	max-width: 300px;
+	/*margin-left: -40px;*/
+}
+
+@media ( max-width: 1279px ) {	
+	.left_sidebar {
+		margin-left: -20px;
+	}
+}
+
+@media ( max-width: 767px ) {
+	.left_sidebar {
+		margin: 0 auto;
+	}
+}

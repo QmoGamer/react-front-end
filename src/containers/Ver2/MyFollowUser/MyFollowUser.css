@@ -1,0 +1,58 @@
+.my_follow {
+	margin: 10px 0;
+}
+
+.my_follow .header {
+	display: flex;
+	padding: 4px 0;
+	border-bottom: 1px solid #bbb;
+}
+
+.my_follow .body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.my_follow .body .mobile {
+	display: none;
+}
+
+.my_follow .body .row {
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid #bbb;
+	padding: 4px 0;
+}
+
+.my_follow .body .row .info {
+	flex: 7;
+	display: flex;
+	align-items: center;
+}
+
+.my_follow .body .row .author {
+	flex: 1;
+}
+
+.my_follow .body .row .title {
+	flex: 5;
+}
+
+.my_follow .body .row .post_date {
+	flex: 1;
+}
+
+.my_follow .body .row .action {
+	flex: 1;
+}
+
+@media (max-width: 999px) {
+	.my_follow .header {
+		display: none;
+	}
+
+	.my_follow .body .row .info {
+		flex-direction: column;
+	}
+}

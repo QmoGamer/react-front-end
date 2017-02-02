@@ -1,0 +1,33 @@
+.reply_block {
+	padding-top: 10px;
+	border-top: 1px solid #bbb;
+}
+
+.reply_member_tip {
+	/*padding: 0 10px;*/
+}
+
+.reply_content {
+	padding: 10px 0;
+}
+
+.reply_likes {
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	color: #ccc;
+}
+
+.btn_action {
+	text-align: center;
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: #eee;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.btn_action.active {
+	background-color: #f00;
+	color: #fff;
+}

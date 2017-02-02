@@ -1,0 +1,43 @@
+.category {
+	padding: 10px;
+}
+
+.tabs {
+	margin: 1rem 0;
+	display: flex;
+}
+
+.category_subs {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #ccc;
+}
+
+.panels {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.panels > div {
+	margin: 10px;
+}
+
+@media (max-width: 1279px) {
+	.category {
+		max-width: 640px;
+		margin: 0 auto;
+	}
+
+	.category_subs {
+		flex-direction: column;
+	}
+
+	.panels {
+		flex-direction: column;
+	}
+
+	.panels > div {
+		margin: 0 auto 10px auto;
+	}
+}

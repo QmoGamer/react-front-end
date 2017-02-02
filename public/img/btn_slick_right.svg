@@ -1,0 +1,18 @@
+<svg id="圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 60">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.6;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>btn_R</title>
+  <g class="cls-1">
+    <rect width="30" height="60" transform="translate(30 60) rotate(180)"/>
+    <polygon class="cls-2" points="5 10 26 30 5 50 5 50 24 30 5 10 5 10"/>
+  </g>
+</svg>

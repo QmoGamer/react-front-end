@@ -1,0 +1,40 @@
+.home {
+	padding: 10px 0;
+}
+
+.home .title {
+	font-size: 16px;
+}
+
+.topic {
+	padding: 20px 0 40px;
+	border-bottom: 2px solid #c8c8c8;
+	margin-bottom: 50px;
+}
+
+.tabs {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 16px;
+  margin-bottom: 20px;
+  max-width: 360px;
+  margin: 0 auto 20px;
+}
+
+.tabs > div {
+	cursor: pointer;
+	font-weight: bold;
+	padding: 10px 30px;
+}
+
+.tabs > div.active {
+	color: #e5352b;
+	border-bottom: 2px solid #e5352b;
+}
+
+@media ( max-width: 767px ) {
+	.home .title {
+		padding: 0 10px;
+	}
+}

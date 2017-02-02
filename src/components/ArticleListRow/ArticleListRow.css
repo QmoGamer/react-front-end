@@ -1,0 +1,16 @@
+.ArticleListRow {
+	padding-bottom: 1rem;
+	line-height: 1.2;
+}
+
+.title {
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.content {
+	color: #888;
+	font-size: 14px;
+	-webkit-line-clamp: 1;
+}

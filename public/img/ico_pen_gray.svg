@@ -1,0 +1,14 @@
+<svg id="圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9e9e9e;
+      }
+    </style>
+  </defs>
+  <title>ico_pen_gray</title>
+  <g>
+    <rect class="cls-1" x="9" y="12" width="11" height="2.73" transform="translate(-5 14) rotate(-45)"/>
+    <polygon class="cls-1" points="8 20 11 19 9 17 8 20"/>
+  </g>
+</svg>

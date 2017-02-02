@@ -1,0 +1,44 @@
+.btn_tab {
+	width: 0;
+  transition: width 1s ease;
+  flex: 1;
+  text-align: center;
+  padding: 0.5rem 2rem 4px 2rem;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn_tab > div {
+	transition: width 1s ease;
+	width: 0;
+	height: 4px;
+	background-color: red;
+	margin: 0.5rem auto;
+}
+
+.btn_tab.active {
+	color: red;
+}
+
+.btn_tab.color_type2 {
+	font-weight: normal;
+}
+
+.btn_tab.color_type2 > div {
+	background-color: #fff;
+}
+
+.btn_tab.color_type2.active {
+	color: #fff;
+}
+
+.btn_tab.active > div {
+	width: 100%;
+}
+
+@media ( max-width: 499px ) {
+	.btn_tab {
+		padding: 6px;
+	}
+}

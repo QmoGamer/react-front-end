@@ -1,0 +1,18 @@
+<svg id="圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>ico_search</title>
+  <g>
+    <path class="cls-1" d="M17,16H17a6,6,0,1,0-5,2h4l5,5h1Zm-5,0a4,4,0,1,1,4-4A4,4,0,0,1,12,16Z"/>
+    <rect class="cls-2" width="28" height="28"/>
+  </g>
+</svg>

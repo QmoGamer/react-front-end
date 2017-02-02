@@ -1,0 +1,39 @@
+.table .header .title {
+  max-width: 360px;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.table .header .likes {
+  max-width: 40px;
+  min-width: 40px;
+  width: 100%;
+}
+
+.table .header .replys {
+  max-width: 40px;
+  min-width: 40px;
+  width: 100%;
+}
+
+.table .header .author {
+  max-width: 90px;
+  min-width: 90px;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.table .header .action {
+  min-width: 32px;
+  margin-left: auto;
+}
+
+@media (max-width: 767px) {
+  .table .header .likes, 
+  .table .header .replys 
+  {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.radio {
+	margin: 2px -20px !important;
+	cursor: pointer;
+}
+
+.table > div {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.table > div:nth-child(1) {
+	border-bottom: 2px solid #ddd;
+}
+
+.type_red {
+	background-color: #f2dede;
+}
+
+.type_blue {
+	background-color: #d9edf7;
+}

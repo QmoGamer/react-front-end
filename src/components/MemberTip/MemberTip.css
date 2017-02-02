@@ -1,0 +1,53 @@
+.member_info_bg {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.member_info:hover > .member_info_tip {
+	display: block;
+}
+
+.member_info_tip {
+	display: none;
+	left: 10px;
+	top: 10px;
+	position: absolute;
+	width: 240px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow:1px 1px 1px 1px #ccc;
+	z-index: 99;
+}
+
+.tip_padding {
+	font-size: 12px;
+	padding: 0.5rem 1rem;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.tip_name {
+	font-size: 16px;
+}
+
+.tip_sub {
+	font-size: 12px;
+	color: #aaa;
+	margin-top: 8px;
+}
+
+.btn_action {
+	text-align: center;
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: #eee;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.btn_action.active {
+	background-color: #f00;
+	color: #fff;
+}

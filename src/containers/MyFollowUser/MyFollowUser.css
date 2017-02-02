@@ -1,0 +1,8 @@
+.panels {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.panels > div {
+	margin: 10px;
+}

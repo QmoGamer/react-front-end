@@ -1,0 +1,29 @@
+.authenticate {
+	padding: 10px;
+}
+
+.topic {
+  height: 40px;
+  background-color: #eee;
+  margin-top: -10px;
+  margin: -10px -10px 0 -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_1,
+.box_2
+{
+  display: none;
+	text-align: center;
+}
+
+.btn {
+	margin: 20px auto 80px auto;
+}
+
+.msg {
+	margin: 40px 0;
+	color: #aaa;
+}

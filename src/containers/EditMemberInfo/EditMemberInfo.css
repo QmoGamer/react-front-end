@@ -1,0 +1,40 @@
+.edit_member {
+	padding: 10px 0;
+}
+
+.edit_member .form {
+	padding: 10px 0;
+}
+
+.edit_member .topic {
+	border-bottom: 1px solid #9e9e9e;
+}
+
+.edit_member .row {
+	position: relative;
+	border-bottom: 1px solid #c8c8c8;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+
+.edit_member .row > div:nth-child(1) {
+	flex: 1;
+}
+
+.edit_member .row > div:nth-child(2) {
+	flex: 2;
+	display: flex;
+	justify-content: center;
+}
+
+.edit_member .row > div:nth-child(3) {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+}
+
+/*.edit_member .row > div:first-child {
+	position: absolute;
+	left: 10px;
+}*/

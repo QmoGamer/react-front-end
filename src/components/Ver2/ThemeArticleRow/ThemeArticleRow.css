@@ -1,0 +1,54 @@
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row .title {
+  max-width: 360px;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.row .likes {
+  max-width: 40px;
+  min-width: 40px;
+  width: 100%;
+}
+
+.row .replys {
+  max-width: 40px;
+  min-width: 40px;
+  width: 100%;
+}
+
+.row .author {
+  max-width: 90px;
+  min-width: 90px;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.row .author .author_name {
+  cursor: pointer;
+}
+
+.row .action {
+  min-width: 32px;
+  margin-left: auto;
+}
+
+.row .action .active {
+  background-color: #e5352b;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .row .likes, 
+  .row .replys 
+  {
+    display: none;
+  }
+}

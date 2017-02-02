@@ -1,0 +1,20 @@
+.btn_action {
+	text-align: center;
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: #eee;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.btn_action.active {
+	background-color: #f00;
+	color: #fff;
+}
+
+.likes_tip {
+	font-size: 12px;
+	padding: 5px 0;
+	position: relative;
+	display: flex;
+}

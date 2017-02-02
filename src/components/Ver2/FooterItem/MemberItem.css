@@ -1,0 +1,19 @@
+.member {
+	display: flex;
+}
+
+.member > div {
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+@media (max-width: 767px) {
+	.member {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.member > div {
+		margin: 10px 0;
+	}
+}

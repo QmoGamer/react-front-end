@@ -1,0 +1,17 @@
+.btn_page {
+	padding: 6px 12px;
+	margin: 6px;
+	background-color: #eee;
+	color: #000;
+	cursor: pointer;
+	width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_page.active {
+	background-color: #f00;
+	color: #fff !important;
+}

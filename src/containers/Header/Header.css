@@ -1,0 +1,24 @@
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  color: #fff;
+  background-color: #f00;
+  height: 88px;
+  z-index: 999;
+}
+
+.header.my {
+  height: 132px;
+}
+
+.header_padding {
+	padding: 0 42px;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+	.header_padding {
+  	padding: 0 16px;
+  }
+}

@@ -1,0 +1,35 @@
+.article {
+	/*padding: 0 10px;*/
+}
+
+.btns {
+	display: flex;
+	flex-direction: column;
+}
+
+.btns > div {
+	margin: 4px 0;
+}
+
+.contents {
+	padding: 10px;
+}
+
+.reply {
+	border-top: 1px solid #ddd;
+	padding: 10px;
+}
+
+.reply:nth-child(2) {
+	border-top: 3px solid #000;
+}
+
+.name {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content {
+	padding: 10px 0;
+	word-break: break-all;
+}

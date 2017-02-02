@@ -1,0 +1,11 @@
+.right_sidebar {
+	min-width: 300px;
+	max-width: 300px;
+	/*margin-right: -40px;*/
+}
+
+@media ( max-width: 1279px ) {	
+	.right_sidebar {
+		display: none;
+	}
+}

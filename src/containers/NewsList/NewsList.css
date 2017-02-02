@@ -1,0 +1,95 @@
+.news_list {
+	padding: 10px;
+}
+
+.bg {
+	padding: 10px;
+	background-color: #ddd;
+}
+
+.border {
+	padding: 10px;
+	border: 2px solid #bbb;
+	background-color: #fff;
+}
+
+.rows {
+	display: flex;
+	border-bottom: 2px solid #bbb;
+	padding: 6px 0;
+}
+
+.rows_btn {
+	display: flex;
+	justify-content: center;
+	padding: 40px 0 20px 0;
+}
+
+.flex_box_1 {
+	display: flex;
+}
+
+.post_date {
+	display: flex;
+  flex-direction: column;
+}
+
+.title {
+	font-size: 16px;
+	-webkit-line-clamp: 1;
+	height: 22px;
+}
+
+.likes_row {
+	display: flex;
+	text-align: center;		
+}
+
+.likes {
+	display: none;
+}
+
+.follows {
+	display: none;
+}
+
+@media (max-width: 1279px) {
+	.header {
+		display: none;
+	}
+
+	.rows {
+		flex-direction: column;
+	}
+
+	.post_date {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.flex_box_1 {
+		flex-direction: column;
+	}
+
+	.likes_row {
+		flex: initial !important;
+	}
+
+	.likes_row > div {
+		flex: initial !important;
+		margin-right: 6px;
+	}
+
+	.title {
+		height: 44px;
+	}
+
+	.likes {
+		display: inline-block;
+	}
+
+	.follows {
+		display: inline-block;
+	}
+}

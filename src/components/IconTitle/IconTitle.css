@@ -1,0 +1,11 @@
+.icon_title {
+	display: flex;
+	align-items: center;
+}
+
+.icon_title > div:first-child {
+	width: 16px;
+	height: 16px;
+	background-color: inherit;
+	margin-right: 4px;
+}

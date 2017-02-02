@@ -1,0 +1,32 @@
+.theme {
+	padding: 10px;
+}
+
+.tabs {
+	margin: 1rem 0;
+	display: flex;
+}
+
+.panels {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.panels > div {
+	margin: 10px;
+}
+
+@media (max-width: 1279px) {
+	.theme {
+		max-width: 640px;
+		margin: 0 auto;
+	}
+
+	.panels {
+		flex-direction: column;
+	}
+
+	.panels > div {
+		margin: 0 auto 10px auto;
+	}
+}

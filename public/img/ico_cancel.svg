@@ -1,0 +1,18 @@
+<svg id="圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4b4b4b;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>ico_cancel</title>
+  <g>
+    <polygon class="cls-1" points="25 4 24 3 14 13 4 3 3 4 13 14 3 24 4 25 14 15 24 25 25 24 15 14 25 4"/>
+    <rect class="cls-2" width="28" height="28"/>
+  </g>
+</svg>

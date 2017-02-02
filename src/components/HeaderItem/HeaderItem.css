@@ -1,0 +1,123 @@
+.btn_bars {
+  color: #fff;
+  background-color: inherit;
+  border: 0;
+  padding: 1rem 0;
+  margin-right: 1rem; 
+  cursor: pointer;
+}
+
+.btn_post_article {
+  margin-right: auto;
+  min-width: 32px;
+}
+
+.btn_search {
+  color: #aaa;
+  padding: 0 10px;
+  margin-left: 10px;
+  background-color: #fff;
+  opacity: 0.5;
+  border: 0;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.btn_register {
+  color: #fff !important;
+  /*padding: 0 1rem;*/
+}
+
+.btn_login {
+  color: #fff !important;
+  /*padding-left: 1rem;*/
+}
+
+.header_left {
+  width: 320px;
+}
+
+.header_right {
+  /*width: 180px;*/
+  position: relative;
+  margin-left: auto;
+  justify-content: flex-end;
+}
+
+.header_right_icon {
+  display: none;
+  margin-left: auto;
+}
+
+.header_title {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.header_search {
+  display: flex;
+  justify-content: center;
+}
+
+.header_search_input {
+  width: 100%;
+  max-width: 960px;
+  padding: 8px 0px 8px 16px;
+  border: 0;
+  background-color: #fff;
+  opacity: 0.5;
+  margin-left: 10px;
+  color: #000;
+}
+
+.header_search_input::-webkit-input-placeholder {
+  color: #000;
+  opacity: 1;
+}
+
+.nickname {
+  margin-left: 8px;
+}
+
+.header_tabs {
+  display: flex;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.header_tabs > div {
+  width: 100%;
+  display: flex;
+}
+
+.member_icon {
+  cursor: pointer;
+}
+
+.logout {
+  left: 0 !important;
+  padding: 8px 0 !important;
+  font-size: 12px !important;
+  width: 80px !important;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  .header_right {
+    display: none !important;
+  }
+
+  .header_right_icon {
+    display: block;
+  }
+}
+
+/* pad */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* desktop */
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+}

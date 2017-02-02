@@ -1,0 +1,28 @@
+.text_above_img {
+	position: relative;
+}
+
+.text_above_img img {
+	width: 100%;
+	max-width: 620px;
+	max-height: 350px;
+}
+
+.above_text_bg {
+	position: absolute;
+	bottom: 0em;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding-bottom: 2rem;
+	width: 100%;
+}
+
+.above_text {
+	font-size: 16px;
+	padding: 1rem 1rem 0rem 1rem;
+}
+
+@media (max-width: 767px) {
+	.above_text {
+		-webkit-line-clamp: 1 !important;
+	}
+}

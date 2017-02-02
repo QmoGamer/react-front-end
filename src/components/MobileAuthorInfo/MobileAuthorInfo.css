@@ -1,0 +1,37 @@
+.mobile_author {
+	/*display: none;*/
+	padding: 10px;
+	background-color: #fff;
+}
+
+.mobile_author_name {
+	padding-left: 0.5rem;
+}
+
+.mobile_author_articles {
+
+}
+
+.mobile_author_follows {
+	padding-left: 1rem;
+}
+
+.btn_action {
+	text-align: center;
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: #eee;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.btn_action.active {
+	background-color: #f00;
+	color: #fff;
+}
+
+/*@media (max-width: 1279px) {
+	.mobile_author {
+		display: block;
+	}
+}*/

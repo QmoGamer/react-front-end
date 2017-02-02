@@ -1,0 +1,21 @@
+.msg_area {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.msg_info {
+	flex: 1;
+	padding-left: 8px;
+}
+
+.msger {
+	color: #bbb;
+}
+
+.msg_date {
+	color: #bbb;
+}
+
+.msg_content {
+
+}
